@@ -5,6 +5,12 @@ published: true
 highlight: false
 ---
 
+<script>
+  import inheritanceSrc from './SO Char Controller/CharacterActionInheritance.png' ;
+  import testInspectorSrc from './SO Char Controller/CustomInspector.png' ;
+  import waveGizmosSrc from './SO Char Controller/WaveGizmos.png' ;
+</script>
+
 This tool adds a layer of abstraction between the game loop and the character controller logic. Allowing for more dynamic character controllers than simple value swaps.
 
 Its made up of 3 Modules:
@@ -49,7 +55,7 @@ The tool contains behaviors for the following:
 ## Actions
 Unlike behaviors which are meant to be called from `Update`, actions are meant to be called from a button callback, they can be called from different parts of a button press, have cooldowns, delays, trigger effects using my [SOEffects] tool, and more.
 
-![[Character Action Inheritance.png|491]]
+<img src={inheritanceSrc} alt="" class="mdImage"/>
 
 Actions are where the majority of this tools versatility lie. Especially the attacks.
 
@@ -60,6 +66,6 @@ I ended up with 2 solutions to this, both of which are still used.
 2. The more useful change was creating an extensive gizmo drawing system for the attacks that allowed me to see the attack without even having to enter playmode. The gizmos use almost the **exact same logic** as runtime which means changing a function or value will update the gizmos accordingly with almost perfect parity.
 	1. Gizmos in particluar led to some incredibly fast testing, fixing, and iterating of attacks, and some "Modern Art"
 
-![[Pasted image 20261101002919.png|325]]
+<img src={testInspectorSrc} alt="" class="mdImage"/>
 
-![[Pasted image 20261031202834.png|342]]
+<img src={waveGizmosSrc} alt="" class="mdImage"/>

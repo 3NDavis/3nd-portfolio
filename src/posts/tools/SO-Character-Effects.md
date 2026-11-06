@@ -1,7 +1,7 @@
 ---
 title: "Scriptable Object Effects"
 description: "Generate and trigger effects and player feedback from the same triggers without writing code"
-published: true
+published: false
 highlight: false
 ---
 

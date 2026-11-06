@@ -5,6 +5,10 @@ published: true
 highlight: false
 ---
 
+<script>
+  import toolSrc from './Prespective Tool/PerspectiveTool.gif' ;
+</script>
+
 In Shooting Stars, we decided that a mechanic we wanted to use was perspective puzzle(s). 
 A perspective is made of 2 parts:
 - A Position
@@ -17,4 +21,4 @@ This led to one major issue. It was unnecessarily challenging to build perspecti
 
 To solve this I made a tool that lets the designer move an object along the line that starts at the solved camera position, and continues through the objects position. The designer can then move the object along that line, and scale it resulting in the same configuration from the solution's perspective, but changing the world-space values.
 
-![[PerspectiveTool.gif|484]]
+<enhanced:img src={toolSrc} alt="" class="mdImage"/>
