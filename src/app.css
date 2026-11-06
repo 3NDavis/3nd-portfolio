@@ -24,6 +24,11 @@ body{
     background-color: #000000;
     color:#FD763F;
 }
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  body {color: red;}
+}
+
 
 a{
     color: #CE82E2FF;
@@ -130,7 +135,6 @@ bento-box{
     background-color: #350A0CCC;
     border-width: .2vw;
     border-color: #FD763FFF;
-    color: #FD763F;
 }
 
 bento-box.hoverable{
@@ -192,7 +196,7 @@ skill-label:hover{
 .background{
     position: absolute;
     width: 100%;
-    aspect-ratio: 2/1;
+    height: 100%;
     background-color: #000000;
 }
 
