@@ -45,7 +45,7 @@
         <!-- <img src="{highlight.highlight.iconsrc}" alt="{highlight.highlight.iconAltText}"> -->
     </div>
     <div class="w-3/5 h-full float-end px-[.4em]">
-        <h4 class="justify-self-center pt-[.2em]">{data.highlight.title}</h4>
+        <h4 class="pt-[.2em] text-center">{data.highlight.title}</h4>
         <div>
             <hr class="none">
             <h5 class="pt-[.7em]]">{data.highlight.subtitle}</h5>

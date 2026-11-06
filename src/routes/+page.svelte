@@ -31,8 +31,8 @@
             <div class="w-1/3 h-full float-right padded">
                 <!-- <a href="/highlights"> -->
                     <bento-box>
-                        <bento-label class="absolute justify-self-center text-center">Highlights</bento-label>
-                        <div class="w-9/10 justify-self-center justify-center h-full pt-[3.3vw]">
+                        <bento-label>Highlights</bento-label>
+                        <div class="h-9/10 mx-[.5vw] py-[.5vw]">
                             {#each data.highlights as highlight, i}
                                 <Highlight {highlight}/>
                             {/each}

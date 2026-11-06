@@ -77,20 +77,6 @@ h5{
     font-weight: 500;
 }
 
-full-bento{
-    display: block;
-    position: absolute;
-
-    padding-top: 2vw;
-
-    width: 65%;
-    /* height: 700px; */
-    aspect-ratio:calc(32/21);
-    position: absolute;
-    justify-self: center;
-    justify-content: center;
-}
-
 ul {
   list-style-position: inside;
   list-style-type: disc;
@@ -109,8 +95,23 @@ hr.none{
     padding-bottom:  0px;
 }
 
+full-bento{
+    display: block;
+    position: absolute;
+
+    padding-top: 2vw;
+
+    width: 65%;
+    /* height: 700px; */
+    aspect-ratio:calc(32/21);
+    position: absolute;
+    justify-self: center;
+    justify-content: center;
+}
+
 bento-box{
     display:block;
+    justify-content: center;
 
     padding-left: 2%;
     padding-right: 2%;
