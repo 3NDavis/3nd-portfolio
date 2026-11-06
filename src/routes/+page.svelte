@@ -3,13 +3,13 @@
     import Socials from '#lib/components/socials.svelte';
     import Highlight from '#lib/components/highlight-bento.svelte';
 	import background from '#lib/assets/test.png';
-
+    
     import About from "./about.md"
-
+    
     let { data } = $props();
 </script>
 
-<img class="background object-cover" alt="" src={background} />
+<img class=" background object-cover" alt="" src={background} />
 
 <div-center>
     <full-bento>
