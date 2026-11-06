@@ -1,0 +1,43 @@
+{
+    "highlights": [
+        {
+            "title":"Right As Rain",
+            "subtitle":"A Weather Themed PVP Bullethell",
+            
+            "blogSlug":"projects/Right-As-Rain",
+
+            "borderColor":"#353B6B",
+            "backgroundColor":"#E6F1F6",
+            "textColor":"#000000",
+            
+            "iconsrc":"right-as-rain",
+            "iconAltText":"RaR"
+        },
+        {
+            "title":"Shooting Stars",
+            "subtitle":"A cozy puzzle game about repairing constellations",
+            
+            "blogSlug":"projects/Shooting-Stars",
+
+            "borderColor":"#7876A4",
+            "backgroundColor":"#C3C0E0",
+            "textColor":"#5754A4",
+            
+            "iconsrc":"shooting-star",
+            "iconAltText":"SS"
+        },
+        {
+            "title":"Grid Combat Tetris",
+            "subtitle":"A Weather Themed PVP Bullethell",
+            
+            "blogSlug":"projects/Grid-Combat-Tetris",
+
+            "borderColor":"#BE16C1",
+            "backgroundColor":"#21153F",
+            "textColor":"#FEB530",
+            
+            "iconsrc":"synthset",
+            "iconAltText":"GCT"
+        }
+    ]
+}

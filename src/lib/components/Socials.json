@@ -1,0 +1,19 @@
+{
+    "Socials":[
+        {
+            "image":"github-orange-circle",
+            "altText":"GitHub",
+            "link":"https://github.com/3NDavis"
+        },
+        {
+            "image":"itch-orange-circle",
+            "altText":"Itch",
+            "link":"https://3ndavis.itch.io/"
+        },
+        {
+            "image":"linkedin-orange-circle",
+            "altText":"LinkedIn",
+            "link":"http://www.linkedin.com/in/3ndavis"
+        }
+    ]
+}

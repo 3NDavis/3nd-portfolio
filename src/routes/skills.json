@@ -1,0 +1,31 @@
+{
+	"skills":[
+		{
+			"title": "Engines",
+			"skills": ["Unity","Unreal5","Godot"]
+		},
+		{
+			"title": "Code Languages",
+			"skills": ["C#","C++","GDScript","Python","Svelte","HTML"]
+		},
+		{
+			"title": "Specialist Knowledge",
+			"skills": ["Netcode", "FMOD", "Blender"]
+		}
+	],
+			
+	"languages": [
+		{
+			"language": "English",
+			"level":"Fluent"
+		},
+		{
+			"language": "Mandarin",
+			"level":"Fluent"
+		},
+		{
+			"language": "Japanese",
+			"level":"Proficient"
+		}
+	]
+}
