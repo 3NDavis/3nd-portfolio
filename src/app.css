@@ -95,23 +95,29 @@ hr.none{
     padding-bottom:  0px;
 }
 
+div-center{
+    display: flex;
+    justify-content: center;
+}
+
 full-bento{
     display: block;
     position: absolute;
 
     padding-top: 2vw;
+    /* padding-left: 17.5%; */
+    /* padding-right: 17.5%; */
+    /* width: 100%; */
+    /* aspect-ratio:calc(7/3); */
 
     width: 65%;
-    /* height: 700px; */
-    aspect-ratio:calc(32/21);
+    aspect-ratio: 32/21;
+
     position: absolute;
-    justify-self: center;
-    justify-content: center;
 }
 
 bento-box{
     display:block;
-    justify-content: center;
 
     padding-left: 2%;
     padding-right: 2%;
@@ -207,8 +213,6 @@ hr.skill-divider{
     border-width: 2vw;
     border-color: #1F2430;
     margin:1vw;
-    justify-self: center;
-    justify-content: center;
 }
 
 .txtor{

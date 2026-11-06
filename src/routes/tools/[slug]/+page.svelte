@@ -19,10 +19,12 @@
 	}
 </style>
 
-<div class="pt-10 absolute justify-self-center justify-center w-2/3">
-	<h1>{data.data.frontmatter.title}</h1>
-	<h2>{data.data.frontmatter.description}</h2>
-	<bento-box class="mt-[3vw]">
-		<MDComponent />
-	</bento-box>
-</div>
+<div-center>
+	<div class="pt-10 w-2/3">
+		<h1>{data.data.frontmatter.title}</h1>
+		<h2>{data.data.frontmatter.description}</h2>
+		<bento-box class="mt-[3vw]">
+			<MDComponent />
+		</bento-box>
+	</div>
+</div-center>
