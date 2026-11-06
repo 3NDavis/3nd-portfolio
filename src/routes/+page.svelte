@@ -31,8 +31,8 @@
             <div class="w-1/3 h-full float-right padded">
                 <!-- <a href="/highlights"> -->
                     <bento-box>
-                        <bento-label class="absolute justify-self-center">Highlights</bento-label>
-                        <div class="w-9/10 justify-self-center h-full pt-[3.3vw]">
+                        <bento-label class="absolute justify-self-center text-center">Highlights</bento-label>
+                        <div class="w-9/10 justify-self-center justify-center h-full pt-[3.3vw]">
                             {#each data.highlights as highlight, i}
                                 <Highlight {highlight}/>
                             {/each}
@@ -86,7 +86,7 @@
             <bento-box>
                 <bento-label>Languages</bento-label>
                 {#each data.languages as {language}}
-                    <skill-label class="w-[35%] justify-self-center my-1">{language}</skill-label>
+                    <skill-label class="w-[35%] justify-self-center justify-center my-1">{language}</skill-label>
                 {/each}
             </bento-box>
         </div>

@@ -86,6 +86,7 @@ full-bento{
     /* height: 700px; */
     aspect-ratio:calc(32/21);
     justify-self: center;
+    justify-content: center;
 }
 
 ul {
@@ -204,6 +205,7 @@ hr.skill-divider{
     border-color: #1F2430;
     margin:1vw;
     justify-self: center;
+    justify-content: center;
 }
 
 .txtor{
