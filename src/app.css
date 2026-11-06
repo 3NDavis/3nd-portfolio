@@ -79,12 +79,14 @@ h5{
 
 full-bento{
     display: block;
+    position: absolute;
 
     padding-top: 2vw;
 
     width: 65%;
     /* height: 700px; */
     aspect-ratio:calc(32/21);
+    position: absolute;
     justify-self: center;
     justify-content: center;
 }
