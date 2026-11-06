@@ -139,6 +139,7 @@ bento-box{
 
 bento-box.hoverable{
     transition-duration: 0ms;
+    color:#FD763F
 }
 
 bento-box.hoverable:hover{   
@@ -153,7 +154,6 @@ bento-label{
     /* color: #FD763F; */
     font-weight: 600;
     font-size: 2vw;
-    color:#FD763F
 }
 
 skill-label{
