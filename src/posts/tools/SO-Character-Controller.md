@@ -11,6 +11,10 @@ highlight: false
   import waveGizmosSrc from './SO Char Controller/WaveGizmos.png' ;
 </script>
 
+<div-center>
+	<iframe frameborder="0" src="https://itch.io/embed-upload/20383989?color=bfbfbf" allowfullscreen="" width="980" height="640"><a href="https://3ndavis.itch.io/attack-visualizer">Play Attack Visualizer on itch.io</a></iframe>
+</div-center>
+
 This tool adds a layer of abstraction between the game loop and the character controller logic. Allowing for more dynamic character controllers than simple value swaps.
 
 Its made up of 3 Modules:
@@ -65,7 +69,3 @@ I ended up with 2 solutions to this, both of which are still used.
 1. Not instantiating the SOs. The reason I was doing it was so that each action's timer was self contained, not a bad idea, but instantiating SOs makes them impossible to set in the inspector, and instantating such big data classes was probably not the best practice. I ended up moving the timer to the CharacterController.
 2. The more useful change was creating an extensive gizmo drawing system for the attacks that allowed me to see the attack without even having to enter playmode. The gizmos use almost the **exact same logic** as runtime which means changing a function or value will update the gizmos accordingly with almost perfect parity.
 	1. Gizmos in particluar led to some incredibly fast testing, fixing, and iterating of attacks, and some "Modern Art"
-
-<img src={testInspectorSrc} alt="" class="mdImage"/>
-
-<img src={waveGizmosSrc} alt="" class="mdImage"/>
