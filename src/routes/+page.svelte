@@ -2,14 +2,11 @@
 // @ts-nocheck
     import Socials from '#lib/components/socials.svelte';
     import Highlight from '#lib/components/highlight-bento.svelte';
-	import background from '#lib/assets/test.png';
     
     import About from "./about.md"
     
     let { data } = $props();
 </script>
-
-<img class=" background object-cover" alt="" src={background} />
 
 <div-center>
     <full-bento>
@@ -44,11 +41,12 @@
             <div class="h-2/5">
             <!-- projects -->
                 <div class="w-1/2 h-full float-left padded">
-                    <a href="/projects">
-                        <bento-box class="hoverable">
-                            <bento-label>Projects</bento-label>
+                    <!-- <a href="/projects"> -->
+                        <bento-box>
+                        <!-- <bento-box class="hoverable"> -->
+                            <bento-label>Projects (WIP)</bento-label>
                         </bento-box>
-                    </a>
+                    <!-- </a> -->
                 </div>
             <!-- tools -->
                 <div class="w-1/2 h-full float-right padded">

@@ -21,8 +21,9 @@ Light Lavender:
 */
 
 body{
-    background-color: #000000;
     color:#FD763F;
+    background-repeat: repeat;
+    background-image: url("lib/assets/test.png");
 }
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
@@ -109,7 +110,7 @@ full-bento{
     display: block;
     position: absolute;
 
-    padding-top: 2vw;
+    /* padding-top: 2vw; */
     /* padding-left: 17.5%; */
     /* padding-right: 17.5%; */
     /* width: 100%; */
@@ -192,13 +193,6 @@ skill-label:hover{
 
 .aboutmarginright{
     margin-right: 8vw;
-}
-
-.background{
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    background-color: #000000;
 }
 
 hr.skill-divider{

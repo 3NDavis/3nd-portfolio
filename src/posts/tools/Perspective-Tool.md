@@ -13,7 +13,8 @@ In Shooting Stars, we decided that a mechanic we wanted to use was perspective p
 A perspective is made of 2 parts:
 - A Position
 - A Facing Direction
-This was all that was needed for the solve detection. However, players were given no feedback as to the right position or facing direction. <br><br>
+
+<br>This was all that was needed for the solve detection. However, players were given no feedback as to the right position or facing direction. <br><br>
 
 Designers used decals to hint at the proper configuration of elements, and changed the world position of certain objects to make them line up only when the player was in the correct position, and looking in the correct direction.<br><br>
 
