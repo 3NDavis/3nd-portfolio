@@ -4,6 +4,8 @@
     "cssclasses": "multitext",
     "tags": "tags",
     "published": "checkbox",
-    "highlight": "checkbox"
+    "highlight": "checkbox",
+    "Skills": "multitext",
+    "iconAltText": "text"
   }
 }

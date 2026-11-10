@@ -3,7 +3,7 @@
 	let {data}:{data: PageData} = $props();
 </script>
 
-<div-center>
+<div-center class="pt-[3vw]">
     <full-bento>
         <bento-box>
             {#each data.posts as { slug, title, description }}

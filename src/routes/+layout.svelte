@@ -13,7 +13,7 @@
 	<link rel="icon" href={favicon} />
 </svelte:head>
 
-<a class="sticky top-0" href="http://3ndavis.com">
+<a class="fixed float-left w-screen" href="http://3ndavis.com">
 	<img class="w-1/10" alt="3ND" src={endicon} />
 </a>
 

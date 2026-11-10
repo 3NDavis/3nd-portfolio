@@ -1,8 +1,17 @@
 ---
-title: "Perspective Builder"
-description: "A tool to keep an object's perspective's position the same while changing its world position"
+title: Perspective Builder
+description: A tool to keep an object's perspective's position the same while changing its world position
 published: true
 highlight: false
+backgroundColor: "#E6F1F698"
+borderColor: "#353B6BFF"
+textColor: "#000000FF"
+iconsrc:
+iconAltText: icon
+skills:
+  - Unity
+  - C#
+  - Level Design  Tool
 ---
 
 <script>

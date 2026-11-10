@@ -158,8 +158,6 @@ bento-label{
 }
 
 skill-label{
-    display: block;
-
     /* background */
     background: #280809;
     background: linear-gradient(90deg,rgba(40, 8, 9, 1) 0%, rgba(0, 0, 0, 1) 100%);
@@ -172,9 +170,20 @@ skill-label{
     /* text */
     font-size: .8vw;
     text-align: center;
+    align-content: center;
     color:#FD763FFF;
 
+    
     transition: 50ms;
+}
+
+skill-label.const{
+    display: block;
+}
+
+skill-label.match{
+    padding-left: 1vw;
+    padding-right: 1vw;
 }
 
 skill-label:hover{

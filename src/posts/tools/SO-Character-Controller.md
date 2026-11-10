@@ -1,8 +1,14 @@
 ---
-title: "Scriptable Object Character Controller"
-description: "A codeless reprogrammable character controller"
+title: Scriptable Object Character Controller
+description: A codeless reprogrammable character controller
 published: true
-highlight: false
+highlight: true
+backgroundColor: "#FFFFFFFF"
+borderColor: "#000000FF"
+textColor: "#000000FF"
+iconsrc:
+iconAltText: icon
+skills:
 ---
 
 <script>

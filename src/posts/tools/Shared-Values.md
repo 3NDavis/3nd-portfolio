@@ -1,8 +1,22 @@
 ---
-title: "Shared Values"
-description: "An inspector based dependency injection event system"
+title: Shared Values
+description: An inspector based dependency injection event system
 published: true
 highlight: true
+backgroundColor: "#FFFFFFFF"
+borderColor: "#000000FF"
+textColor: "#000000FF"
+iconsrc:
+iconAltText: icon
+skills:
+  - Unity
+  - C#
+  - Inheritance
+  - Polymorphism
+  - Generics
+  - Netcode
+  - Listener Pattern
+  - Dependency Injection
 ---
 
 <script>

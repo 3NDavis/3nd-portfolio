@@ -20,6 +20,15 @@ declare namespace App {
 		description: string;
 		published: boolean;
 		highlight: boolean;
+
+		backgroundColor: string;
+		borderColor: string;
+		textColor: string;
+
+		iconsrc: string;
+		iconAltText: string;
+		
+		skills: Array<string>;
 	}
 
 	interface Highlight{

@@ -2,15 +2,15 @@
 	"skills":[
 		{
 			"title": "Engines",
-			"skills": ["Unity","Unreal5","Godot"]
+			"skills": ["Unity","Godot","UE5"]
 		},
 		{
 			"title": "Code Languages",
-			"skills": ["C#","C++","GDScript","Python","Svelte","HTML"]
+			"skills": ["C#","GDScript", "C++","Python","Svelte","HTML"]
 		},
 		{
 			"title": "Specialist Knowledge",
-			"skills": ["Netcode", "FMOD", "Blender"]
+			"skills": ["Git","Netcode", "FMOD", "Blender"]
 		}
 	],
 			

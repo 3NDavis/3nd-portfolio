@@ -8,7 +8,7 @@
     let { data } = $props();
 </script>
 
-<div-center>
+<div-center class="pt-[3vw]">
     <full-bento>
         <div class="w-3/4 h-full float-left">
             <div class="w-full h-3/5">
