@@ -21,7 +21,7 @@ I settled on using Markdown and using the sveltekit plugin mdsvex to be able to 
 
 To make the process even better I decided to use Obsidian to edit the markdown files. This allowed me to make templates and apply custom script if I wanted and see a rough preview much faster.
 
-I ended up using a template to add a parameters at the top of every on of my blogs.
+I ended up using a template to add a parameters at the top of every on of my blogs that allows me to control how it appears on the site.
 - Title
 - Description
 - Published
@@ -32,4 +32,4 @@ I ended up using a template to add a parameters at the top of every on of my blo
 - skills used for the blog
 
 
-I also have some modifications to my obsidian so that whenever I use a hyperlink, or embedded image, it uses the HTML version instead of the markdown version. Since the markdown version breaks the webpage.
+I also have some modifications to my obsidian so that whenever I use a hyperlink `[Text](Link)`, or embedded image `[Img]`, it switches the HTML version `<a href="Link">Text</a>` and `<img src="Img" alt="img">` respectively. Since the markdown version breaks the webpage.
