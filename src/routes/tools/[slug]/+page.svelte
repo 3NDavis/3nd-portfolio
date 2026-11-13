@@ -10,7 +10,7 @@
 	});
 	
 	let textStyle = $state({
-		'color': data.data.frontmatter.backgroundColor,
+		'color': data.data.frontmatter.titleColor,
 	})
 	
 	let cssVarStyles = $derived.by(() => Object.entries(styles)
@@ -31,7 +31,7 @@
         border-color: var(--border-color, #FD763FFF);
         color: var(--color, #FD763FFF);
     }
-	#blogText{
+	#titleText{
         color: var(--color, #FD763FFF);
 	}
 	h1{
@@ -57,10 +57,10 @@
 
 <div-center>
 	<div class="w-2/3">
-		<h1 id="blogText" style={cssTextVarStyles}>{data.data.frontmatter.title}</h1>
-		<h2 id="blogText" style={cssTextVarStyles}>{data.data.frontmatter.description}</h2>
+		<h1 id="titleText" style={cssTextVarStyles}>{data.data.frontmatter.title}</h1>
+		<h2 id="titleText" style={cssTextVarStyles}>{data.data.frontmatter.description}</h2>
 		<div class="pt-[.5vw]">
-			<bento-box id="blog" style={cssVarStyles}>
+			<bento-box class="resize" id="blog" style={cssVarStyles}>
 				<h3 class="text-center">Skills</h3>
 				<div class="padded">
 					{#each data.data.frontmatter.skills as skill}
@@ -69,7 +69,7 @@
 				</div>
 			</bento-box>
 		</div>
-		<bento-box class="mt-[1vw]" id="blog" style={cssVarStyles}>
+		<bento-box class="mt-[1vw] mb-[5vw]" id="blog" style={cssVarStyles}>
 			<MDComponent />
 		</bento-box>
 	</div>

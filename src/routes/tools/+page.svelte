@@ -5,7 +5,7 @@
 
 <div-center class="pt-[3vw]">
     <full-bento>
-        <bento-box>
+        <bento-box class="full">
             {#each data.posts as { slug, title, description }}
             <div class="mb-[2vw]">
                 <a href="{slug}">

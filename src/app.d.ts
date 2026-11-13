@@ -20,10 +20,12 @@ declare namespace App {
 		description: string;
 		published: boolean;
 		highlight: boolean;
+		priority: number;
 
 		backgroundColor: string;
 		borderColor: string;
 		textColor: string;
+		titleColor: string;
 
 		iconsrc: string;
 		iconAltText: string;

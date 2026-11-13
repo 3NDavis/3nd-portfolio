@@ -15,8 +15,13 @@ export const load: PageServerLoad = async ({ url }) => {
 				} as App.BlogPost)
 		)
 	);
+	
 	const posts = await Promise.all(postPromises);
-	const publishedPosts = posts.filter((post) => post.published).slice(0, MAX_POSTS);
+	const published = posts.filter((post) => post.published);
 
-	return { posts: publishedPosts };
+	const sorted = published.sort(function(a, b) {return b.priority - a.priority});
+	
+	const clampedPublished = sorted.slice(0, MAX_POSTS);
+
+	return { posts: clampedPublished };
 };

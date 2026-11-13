@@ -3,6 +3,7 @@ title: "Scriptable Object Effects"
 description: "Generate and trigger effects and player feedback from the same triggers without writing code"
 published: false
 highlight: false
+priority: 0
 ---
 
 All of the player feedback systems that I have used in unity projects have been decentralized, making it hard to remember to use all of them or have them activate for the same triggers.

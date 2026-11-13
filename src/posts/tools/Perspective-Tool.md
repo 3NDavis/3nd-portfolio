@@ -6,12 +6,14 @@ highlight: false
 backgroundColor: "#E6F1F698"
 borderColor: "#353B6BFF"
 textColor: "#000000FF"
+titleColor: "#E6F1F6FF"
 iconsrc:
 iconAltText: icon
 skills:
   - Unity
   - C#
   - Level Design  Tool
+priority: 0
 ---
 
 <script>

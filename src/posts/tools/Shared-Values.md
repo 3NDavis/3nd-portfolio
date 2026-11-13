@@ -3,9 +3,11 @@ title: Shared Values
 description: An inspector based dependency injection event system
 published: true
 highlight: true
-backgroundColor: "#FFFFFFFF"
-borderColor: "#000000FF"
-textColor: "#000000FF"
+priority: 2
+backgroundColor: "#350A0CCC"
+borderColor: "#FD763FFF"
+textColor: "#FD763FFF"
+titleColor: "#FD763FFF"
 iconsrc:
 iconAltText: icon
 skills:
@@ -124,6 +126,11 @@ public class PlayerController : MonoBehavior
 
 # Pros And Cons
 
+## Upsides:
+  - Especially good for rapid prototyping
+  - Decoupled code makes it resistant to system changes
+  - Modularity leads to emergent behaviors and interactions
+
 ## Downsides:
 - The component oriented design can get harder to debug the larger the project grows.
 	- This is one of the issues I have been addressing as I have been using the tool in more projects. Adding more debug logs, inspector debug values, and more.
@@ -131,8 +138,3 @@ public class PlayerController : MonoBehavior
 - `SharedValueReference` is less performant than `SerializeField` or `GetComponent`
 	- any time you access them they use a switch statement
 - The usage of `UnityEvents` requires public functions decreasing encapsulation.
-
-## Upsides:
-  - Especially good for rapid prototyping
-  - Decoupled code makes it resistant to system changes
-  - Modularity leads to emergent behaviors and interactions

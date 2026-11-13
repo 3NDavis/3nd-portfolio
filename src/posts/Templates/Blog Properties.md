@@ -3,9 +3,11 @@ title:
 description:
 published: false
 highlight: false
-backgroundColor: "#FFFFFFFF"
-borderColor: "#000000FF"
-textColor: "#000000FF"
+priority: 0
+backgroundColor: "#350A0CCC"
+borderColor: "#FD763FFF"
+titleColor: "#FD763FFF"
+textColor: "#FD763FFF"
 iconsrc:
 iconAltText: icon
 skills:
