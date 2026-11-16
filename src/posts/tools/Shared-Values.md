@@ -8,8 +8,8 @@ backgroundColor: "#350A0CCC"
 borderColor: "#FD763FFF"
 textColor: "#FD763FFF"
 titleColor: "#FD763FFF"
-iconsrc:
-iconAltText: icon
+iconsrc: "/app-icons/shared-val-float.png"
+iconAltText: Shared Values
 skills:
   - Unity
   - C#

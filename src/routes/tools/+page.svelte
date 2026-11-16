@@ -3,14 +3,21 @@
 	let {data}:{data: PageData} = $props();
 </script>
 
-<div-center class="pt-[3vw]">
+<style>
+h1{
+    font-size:4vw;
+}
+</style>
+
+<h1 class="text-center w-full">Tools</h1>
+<div-center>
     <full-bento>
         <bento-box class="full">
             {#each data.posts as { slug, title, description }}
             <div class="mb-[2vw]">
                 <a href="{slug}">
-                    <h1>{title}</h1>
-                    <h3 class="txtor">{description}</h3>
+                    <h2>{title}</h2>
+                    <h4 class="txtor">{description}</h4>
                 </a>
             </div>
             {/each}

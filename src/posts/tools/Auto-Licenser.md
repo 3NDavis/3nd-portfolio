@@ -1,6 +1,6 @@
 ---
 title: Auto Licenser
-description: A PowerShell/Terminal script to append a license (or anything) to files
+description: A PowerShell/Terminal script to append a license (or anything) to text or script files
 published: true
 highlight: false
 priority: -1

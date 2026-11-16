@@ -1,4 +1,26 @@
-<div class="absolute">
-    <h1>projects</h1>
-    <!-- <iframe title="Grid Combat Tetris" frameborder="0" src="https://itch.io/embed-upload/19093728?color=21153F" allowfullscreen="false" width="1280" height="740"><a href="https://3ndavis.itch.io/grid-combat-tetris">Play Grid Combat Tetris on itch.io</a></iframe> -->
-</div>
+<script lang="ts">
+	import type { PageData } from './$types';
+	let {data}:{data: PageData} = $props();
+</script>
+
+<style>
+h1{
+    font-size:4vw;
+}
+</style>
+
+<h1 class="text-center w-full">Projects</h1>
+<div-center>
+    <full-bento>
+        <bento-box class="full">
+            {#each data.posts as { slug, title, description }}
+            <div class="mb-[2vw]">
+                <a href="{slug}">
+                    <h2>{title}</h2>
+                    <h4 class="txtor">{description}</h4>
+                </a>
+            </div>
+            {/each}
+        </bento-box>
+    </full-bento>
+</div-center>

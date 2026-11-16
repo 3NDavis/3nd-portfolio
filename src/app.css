@@ -180,6 +180,13 @@ bento-label{
     font-size: 2vw;
 }
 
+carousel-container{
+    display:block;
+    aspect-ratio: 1;
+    backdrop-filter: blur(0px);
+    width: 55%;
+}
+
 skill-label{
     /* background */
     background: #280809;
