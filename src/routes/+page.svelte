@@ -20,8 +20,6 @@
         { alt: "b", src: "/app-icons/shooting-star.png" },
     ];
 
-	import PdfViewer from 'svelte-pdf';
-
     let { data } = $props();
 </script>
 
