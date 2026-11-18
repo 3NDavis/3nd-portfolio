@@ -39,6 +39,7 @@ From the get-go we wanted the gameplay to be assymetric, we split the users into
 | Movement Option    | Yes                                 | No                                                     |
 | Starting Attacks   | 2 Basic                             | 4 Complex                                              |
 | Gameplay Varaition | Pickups<br>(attakcs, health, other) | Level Up<br>(more attacks, upgraded attacks, movement) |
+
 The main way that we encouraged the players to interact with each other beyond "Get the other guys health bar to 0" was there was invisible timers everywhere. The boss would slowly level up and get stronger over time. Pickups would spawn over time letting the player power up if the boss didn't engage.
 
 My favorite mechanic was that boss attacks would spawn pickup coins, which when the player collected 10 would spawn a pickup. This meant that players were weaving in and out of attacks naturally to get access to cool powerups.

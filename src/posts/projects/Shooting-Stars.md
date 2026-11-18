@@ -1,12 +1,12 @@
 ---
-title: Right As Rain Tools
-description:
+title: Shooting Stars
+description: A cozy game about fixing constellations
 published: true
 highlight: true
 priority: 10
 backgroundColor: "#C3C0E0CC"
 borderColor: "#7876A4FF"
-titleColor: "#FD763FFF"
+titleColor: "#C3C0E0FF"
 textColor: "#5754A4FF"
 iconsrc: shooting-stars
 iconAltText: Shooting Stars
@@ -17,8 +17,9 @@ skills:
   - Agile
   - Rapid Prototyping
 ---
-https://3ndavis.itch.io/shooting-stars
- Shooting stars was made for a 2 week game jam with the theme "positivity".<br><br>
+<iframe frameborder="0" src="https://itch.io/embed/5106751?border_width=3&amp;bg_color=C3C0E0&amp;fg_color=5754A4&amp;link_color=7876A4&amp;border_color=7876A4" width="556" height="171"><a href="https://3ndavis.itch.io/shooting-stars">Shooting Stars by 3NDavis, AVID23, nettle24, MAYOKI, Lily, PixiesAngels, Charles Davies, John C Nell</a></iframe><br>
+
+Shooting stars was made for a 2 week game jam with the theme "positivity".<br><br>
  
  We also had one additional goal which was to showcase everyone's individual skills and how much we can do in 2 weeks. We were a team of 8:
  - 3 environment artists
@@ -26,7 +27,7 @@ https://3ndavis.itch.io/shooting-stars
  - 1 Character Artist
  - 2 Designers/VFX Artists
  - Me as the sole programmer, and sometimes a designer.
- The hardest of these to showcase was the caracter artist. Not having an animator or someone who could animate we decided to make a first-person game, but that still begged the question of what are character artist could do. We landed on Statues.
+ The hardest of these to showcase was the character artist. Not having someone who could animate we decided to make a first-person game, but that still begged the question of what are character artist could do. We landed on Statues.
 ## Week 1
 This project moved incredibly fast, within the first day we decided on the "fixing constellations" as our gameplay loop. This led to a crossbow and the perspective puzzle, both of which I had prototypes for within the next 3 days. While I was working on that, the visuals and narrative were being decided on, the level and terrain were being boxed out. We had a greybox, and proxy models of every asset within the first week. 
 

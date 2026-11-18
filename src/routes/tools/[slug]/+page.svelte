@@ -41,7 +41,7 @@
 		font-size: 2vw;
 	}
 	h3{
-		font-size: 1vw;
+		font-size: 2vw;
 		font-weight: bold;
 	}
 	p{
