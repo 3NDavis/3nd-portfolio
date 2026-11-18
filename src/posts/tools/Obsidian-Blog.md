@@ -15,11 +15,13 @@ skills:
   - JavaScript
   - Obsidian
 ---
-When making this site I wanted to be able to create content for it in an intuative way. I did not want to make a new HTML page for every entry, I also did not want to use JSON, or JS files since they are not that intuative to write in.
+I have become increasingly aware of connecting a tool that someone might be familiar with to create content for a tool that they may be less familar with.
 
-I settled on using Markdown and using the sveltekit plugin mdsvex to be able to read the mark down files.
+Case in point: 
 
-To make the process even better I decided to use Obsidian to edit the markdown files. This allowed me to make templates and apply custom script if I wanted and see a rough preview much faster.
+When making this site I wanted to be able to create content for it in an intuative way. I did not want to make a new HTML page for every entry, I also did not want to use JSON, or JS files since they are not intuative to write in.
+
+I settled on using Markdown and using the sveltekit plugin mdsvex to be able to read the mark down files. To make the process of editing the markdown even smoother, I decided to use Obsidian (which I have been using for about a year now). This allowed me to make templates and apply custom script if I wanted and see a rough preview much faster.
 
 I ended up using a template to add a parameters at the top of every on of my blogs that allows me to control how it appears on the site.
 - Title
@@ -33,3 +35,5 @@ I ended up using a template to add a parameters at the top of every on of my blo
 
 
 I also have some modifications to my obsidian so that whenever I use a hyperlink `[Text](Link)`, or embedded image `[Img]`, it switches the HTML version `<a href="Link">Text</a>` and `<img src="Img" alt="img">` respectively. Since the markdown version breaks the webpage.
+
+This allows for much faster content creation in a familiar environment.
