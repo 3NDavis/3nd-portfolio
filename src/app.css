@@ -24,6 +24,7 @@ body{
     color:#FD763F;
     background-repeat: repeat;
     background-image: url("lib/assets/test.png");
+    background-color: #1D1D1D;
 }
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
@@ -68,7 +69,7 @@ code{
     padding-right: .5%;
     padding-top: .1%;
     padding-bottom: .1%;
-    text-wrap: pretty;
+    text-wrap: wrap;
 }
 
 li{
