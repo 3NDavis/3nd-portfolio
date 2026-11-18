@@ -3,10 +3,19 @@ title: Auto Licenser
 description: A PowerShell/Terminal script to append a license (or anything) to text or script files
 published: true
 highlight: false
-priority: -1
+priority: 0
 Skills:
   - PowerShell
   - Terminal
+backgroundColor: "#350A0CCC"
+borderColor: "#FD763FFF"
+titleColor: "#FD763FFF"
+textColor: "#FD763FFF"
+iconsrc:
+iconAltText: icon
+skills:
+  - PowerShell
+  - Teminal
 ---
 # The Problem
 When creating scripts for packages or projects making sure they are all licensed properly not only with a license file within the project, but also at the top of the scripts themselves.
