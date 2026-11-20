@@ -92,6 +92,7 @@ public class MovementControllerComponent : MonoBehavior
 ```
 The behavior can be set via script, or inspector. This allows the same component to have multiple behaviors. To change a characters behavior you don't have to add and destroy a component or set a plethora of values, you just set the current behavior SO.
 
+---
 ## Behaviors
 In most character controllers you are be able to change the speed, jump force, aim sensitivity, etc. However, modifying those values does not change the way those values are applied.
 
@@ -108,7 +109,7 @@ Both the behaviors above inherit from `MovementBehavior`, so the `MovementContro
 The tool contains behaviors for the following:
 - movement: velocity, teleport in direction, teleport to position.
 - aiming: pointer position, in direction, to a transform
-
+---
 ## Actions
 Unlike behaviors which are meant to be called from `Update`, actions are meant to be called from an event callback(like a button or a behavior trigger), they can be called from different parts of a button press, have cooldowns, delays, trigger effects using my [SOEffects] tool, and more.
 

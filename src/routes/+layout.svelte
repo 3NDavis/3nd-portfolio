@@ -2,6 +2,8 @@
 	import "../app.css";
 	import favicon from '#lib/assets/favicon.png';
 	import endicon from '#lib/assets/Orange-3nd.png';
+	
+	import '@fontsource/space-mono';
 
 
 	import { fade } from 'svelte/transition';

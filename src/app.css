@@ -23,8 +23,15 @@ Light Lavender:
 body{
     color:#FD763F;
     background-repeat: repeat;
-    background-image: url("lib/assets/test.png");
-    background-color: #1D1D1D;
+    background-color: #000000FF;
+    background-image: url("lib/assets/bgGrid.png");
+
+    font-family: 'Space Mono', monospace;
+    font-weight: 400;
+    font-style: normal;
+    color:#FD763F;
+
+
 }
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
@@ -52,7 +59,7 @@ pre{
     padding-top: 1vw;
     padding-bottom: 1vw;
     border-radius: .5vw;
-    font-size: 1.2vw;
+    font-size: .8vw;
 }
 
 blockquote{
@@ -149,8 +156,8 @@ bento-box{
     padding-bottom: 1%;
 
     /* width: 100%; */
-    backdrop-filter: blur(4px);
-    background-color: #350A0CCC;
+    backdrop-filter: blur(2px);
+    background-color: #350A0CE8;
     border-width: .2vw;
     border-color: #FD763FFF;
 }
@@ -182,13 +189,6 @@ bento-label{
     font-size: 2vw;
 }
 
-carousel-container{
-    display:block;
-    aspect-ratio: 1;
-    backdrop-filter: blur(0px);
-    width: 55%;
-}
-
 skill-label{
     /* background */
     background: #280809;
@@ -196,7 +196,7 @@ skill-label{
 
     /* border */
     border-width: .1vw;
-    border-radius: 20px;
+    border-radius: 1vw;
     border-color: #FD763FFF;
     
     /* text */
@@ -222,7 +222,52 @@ skill-label:hover{
     border-color: #CE82E2;
     color: #CE82E2;
 
-    scale: 100.8%
+    scale: 102%
+}
+
+.tooltip{
+    /* background */
+    background: #280809;
+    background: linear-gradient(90deg,rgba(40, 8, 9, 1) 0%, rgba(0, 0, 0, 1) 100%);
+
+    /* border */
+    border-width: .1vw;
+    border-radius: .8vw;
+    border-color: #FD763FFF;
+    
+    padding-left: 1vw;
+    padding-right: 1vw;
+    padding-top: .1vw;
+    padding-bottom: .1vw;
+    
+    /* text */
+    font-size: .8vw;
+    text-align: center;
+    align-content: center;
+    color:#FD763FFF;
+}
+
+.popover{
+    /* background */
+    background: #280809;
+    background: linear-gradient(90deg,rgba(40, 8, 9, 1) 0%, rgba(0, 0, 0, 1) 100%);
+
+    /* border */
+    border-width: .1vw;
+    border-radius: .8vw;
+    border-color: #FD763FFF;
+    
+    padding-left: 1vw;
+    padding-right: 1vw;
+    padding-top: .1vw;
+    padding-bottom: .1vw;
+    
+    width: 25vw;
+    
+    /* text */
+    text-align: center;
+    align-content: center;
+    color:#FD763FFF;
 }
 
 .highlight{
@@ -230,10 +275,6 @@ skill-label:hover{
     height: 30%;
     border-width: .3vw;
     margin-bottom: .6vw;
-}
-
-.aboutmarginright{
-    margin-right: 8vw;
 }
 
 hr.skill-divider{
@@ -273,5 +314,5 @@ hr.skill-divider{
 }
 
 .growhover:hover{
-    scale: 100.8%
+    scale: 102%
 }

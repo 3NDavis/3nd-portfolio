@@ -1,4 +1,14 @@
-<!-- <script>
-	import PdfViewer from 'svelte-pdf';
+<script>
+    import pdfUrl from './resume.pdf?url';
 </script>
-<PdfViewer url='https://raw.githubusercontent.com/vinodnimbalkar/svelte-pdf/369db2f9edbf5ab8c87184193e1404340729bb3a/public/sample.pdf' /> -->
+
+<style>
+    h1{
+        font-size: 4vw;
+    }
+</style>
+
+<div class="grid grid-row-1 justify-center">
+    <h1 class="text-center">Resumé</h1>
+    <iframe src={pdfUrl} width="800" height="1000" title="PDF"/>
+</div>

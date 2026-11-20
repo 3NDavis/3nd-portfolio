@@ -18,6 +18,7 @@
         background-color: var(--bg-color, red);
         border-color: var(--border-color, black);
         color: var(--color, black);
+        height: 100%;
     }
     hr.none{
         margin-top: 0px;
@@ -28,27 +29,32 @@
     h4{
         margin-top: .1vw;
         margin-bottom: .1vw;
-        font-size: .73vw;
+        font-size: 1.1vw;
         font-weight: bolder;
+        text-align: center;
     }
     h5{
-        font-size: .6vw;
+        font-size: .65vw;
         font-weight: 500;
+        text-align: center;
     }
+    .bordered{
+        -webkit-text-stroke: .01vw black;
+    }
+
 </style>
 
-<a href={data.highlight.blogSlug} class="highlight growhover" id="highlight" style="{cssVarStyles}">
-    <div class="w-2/5 h-full float-start p-2">
-        {#await import(`../assets/app-icons/${data.highlight.iconsrc}.png`) then { default: src }}
-            <img {src} alt={data.highlight.iconAltText} />
+<a href={data.highlight.blogSlug} class="highlight growhover" id="highlight" style={cssVarStyles}>
+    <div>
+        {#await import(`../assets/highlight-icons/${data.highlight.iconsrc}.png`) then { default: src }}
+            <img src={src} class="relative object-cover h-full w-full" alt={data.highlight.iconAltText} />
         {/await}
-        <!-- <img src="{highlight.highlight.iconsrc}" alt="{highlight.highlight.iconAltText}"> -->
-    </div>
-    <div class="w-3/5 h-full float-end px-[.4em]">
-        <h4 class="pt-[.2em] text-center">{data.highlight.title}</h4>
-        <div>
-            <hr class="none">
-            <h5 class="pt-[.7em]]">{data.highlight.subtitle}</h5>
+        <div class="relative w-full bottom-[4.6vw] px-[.4vw]">
+            <h4 class="pt-[.2em] bordered">{data.highlight.title}</h4>
+            <div>
+                <hr class="none">
+                <h5 class="pt-[.7em] bordered">{data.highlight.subtitle}</h5>
+            </div>
         </div>
     </div>
 </a>

@@ -137,7 +137,7 @@ public class PlayerController : MonoBehavior
 - Requires good file organization for the ScriptableObjects to stay under control
 - `SharedValueReference` is less performant than `SerializeField` or `GetComponent`
 	- any time you access them they use a switch statement
-- The usage of `UnityEvents` requires public functions decreasing encapsulation.
+- The usage of `UnityEvents` requires public functions decreasing encapsulation.<br><br>
 
-# Example
+# Developer Example
 My favorite example use Shared Values (so far) was when making shooting stars. I had previously developed the pause menu using Shared Values using a globally accessible `IsPaused` Boolean. Later I  was adding audio and music, and went, "It sure would be cool if there was a low-pass filter when the game was paused". I then added two components the audio listener game object to listen to the `IsPaused` variable and enable/disable a low-pass filter component as needed. From idea to test (including compile time), it took me <u>less than a minute</u>, 0 lines of code, and it worked flawlessly.

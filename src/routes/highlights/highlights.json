@@ -1,43 +1,30 @@
 {
     "highlights": [
         {
-            "title":"Right As Rain",
+            "title":"_",
             "subtitle":"A Weather Themed PVP Bullethell",
             
             "blogSlug":"https://studio-forecast.itch.io/right-as-rain",
 
             "borderColor":"#353B6B",
-            "backgroundColor":"#E6F1F6",
-            "textColor":"#000000",
+            "backgroundColor":"#353B6B",
+            "textColor":"#353B6B",
             
-            "iconsrc":"right-as-rain",
+            "iconsrc":"right-as-rain-highlight",
             "iconAltText":"RaR"
         },
         {
-            "title":"Shooting Stars",
-            "subtitle":"A cozy puzzle game about repairing constellations",
+            "title":"Shared Values",
+            "subtitle":"A unity inspector dependency injection framework",
             
-            "blogSlug":"projects/Shooting-Stars",
+            "blogSlug":"tools/Shared-Values",
 
-            "borderColor":"#7876A4",
-            "backgroundColor":"#C3C0E0",
-            "textColor":"#5754A4",
+            "borderColor":"#1A1A1A",
+            "backgroundColor":"#343434",
+            "textColor":"#FFFFFF",
             
-            "iconsrc":"shooting-star",
-            "iconAltText":"SS"
-        },
-        {
-            "title":"Grid Combat Tetris",
-            "subtitle":"Grid based combat that creates the pieces for a tetris board",
-            
-            "blogSlug":"https://3ndavis.itch.io/grid-combat-tetris",
-
-            "borderColor":"#BE16C1",
-            "backgroundColor":"#21153F",
-            "textColor":"#FEB530",
-            
-            "iconsrc":"synthset",
-            "iconAltText":"GCT"
+            "iconsrc":"shared-value-highlight",
+            "iconAltText":"Shared Values"
         }
     ]
 }
