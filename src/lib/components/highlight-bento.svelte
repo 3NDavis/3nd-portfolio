@@ -47,7 +47,7 @@
 <a href={data.highlight.blogSlug} class="highlight growhover" id="highlight" style={cssVarStyles}>
     <div>
         {#await import(`../assets/highlight-icons/${data.highlight.iconsrc}.png`) then { default: src }}
-            <img src={src} class="relative object-cover h-full w-full" alt={data.highlight.iconAltText} />
+            <img src={src} class="relative object-cover w-full" alt={data.highlight.iconAltText} />
         {/await}
         <div class="relative w-full bottom-[4.6vw] px-[.4vw]">
             <h4 class="pt-[.2em] bordered">{data.highlight.title}</h4>

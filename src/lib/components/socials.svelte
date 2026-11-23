@@ -11,7 +11,7 @@
     }
 </script>
 
-<div class="h-full grid-cols-8 gap-[.5vw] grid">
+<div class="grid-cols-8 gap-[.5vw] grid">
     <button onclick={openEmail}>
         <Tooltip class="tooltip" arrow={false}>Email</Tooltip>
         <img class="h-full growhover" alt="Email" src={email} />

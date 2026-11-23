@@ -35,9 +35,79 @@ body{
 }
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
-  body {color: red;}
-}
+    h1{
+        font-size: 5vw;
+        font-weight: bold;
+    }
 
+    h2{
+        font-size: 4vw;
+        font-weight: bolder;
+    }
+
+    h3{
+        font-size: 2vw;
+        font-weight: normal;
+    }
+
+    h4{
+        font-size: 1vw;
+        font-weight: bolder;
+    }
+
+    h5{
+        font-size: .6vw;
+        font-weight: 500;
+    }
+    bento-label{
+        display: block;
+        text-align: center;
+
+        /* color: #FD763F; */
+        font-weight: 600;
+        font-size: 3.5vw;
+    }
+    skill-label{
+        font-size: 2vw;
+    }
+}
+@media only screen and (min-width: 600px) {
+    h1{
+        font-size: 1.5vw;
+        font-weight: bold;
+    }
+
+    h2{
+        font-size: 1.3vw;
+        font-weight: bolder;
+    }
+
+    h3{
+        font-size: .9vw;
+        font-weight: normal;
+    }
+
+    h4{
+        font-size: .9vw;
+        font-weight: bolder;
+    }
+
+    h5{
+        font-size: .6vw;
+        font-weight: 500;
+    }
+    bento-label{
+        display: block;
+        text-align: center;
+
+        /* color: #FD763F; */
+        font-weight: 600;
+        font-size: 2vw;
+    }
+    skill-label{
+        font-size: .8vw;
+    }
+}
 
 a{
     color: #CE82E2FF;
@@ -83,31 +153,6 @@ li{
     margin-left: 3vw;
 }
 
-h1{
-    font-size: 1.5vw;
-    font-weight: bold;
-}
-
-h2{
-    font-size: 1.3vw;
-    font-weight: bolder;
-}
-
-h3{
-    font-size: .9vw;
-    font-weight: normal;
-}
-
-h4{
-    font-size: .9vw;
-    font-weight: bolder;
-}
-
-h5{
-    font-size: .6vw;
-    font-weight: 500;
-}
-
 ul {
   list-style-position: inside;
   list-style-type: disc;
@@ -142,9 +187,8 @@ full-bento{
     /* aspect-ratio:calc(7/3); */
 
     width: 65%;
+    /* height: 100; */
     aspect-ratio: 32/21;
-
-    position: absolute;
 }
 
 bento-box{
@@ -180,15 +224,6 @@ bento-box.hoverable:hover{
     color: #CE82E2FF;
 }
 
-bento-label{
-    display: block;
-    text-align: center;
-
-    /* color: #FD763F; */
-    font-weight: 600;
-    font-size: 2vw;
-}
-
 skill-label{
     /* background */
     background: #280809;
@@ -196,11 +231,10 @@ skill-label{
 
     /* border */
     border-width: .1vw;
-    border-radius: 1vw;
+    border-radius: 2vw;
     border-color: #FD763FFF;
     
     /* text */
-    font-size: .8vw;
     text-align: center;
     align-content: center;
     color:#FD763FFF;
@@ -272,7 +306,7 @@ skill-label:hover{
 
 .highlight{
     display: block;
-    height: 30%;
+    height: 11vw;
     border-width: .3vw;
     margin-bottom: .6vw;
 }
