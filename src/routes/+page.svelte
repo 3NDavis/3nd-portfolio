@@ -6,9 +6,9 @@
     
     import { Gallery, Popover } from "flowbite-svelte";
     const projects = [
-        { alt: "Right As Rain", src: "/app-icons/right-as-rain.png", slug:"right-as-rain" },
-        { alt: "Shooting Star", src: "/app-icons/shooting-star.png", slug:"shooting-star" },
-        { alt: "Grid Combat Tetris", src: "/app-icons/synthset.png", slug:"" },
+        { alt: "Right As Rain", src: "/app-icons/right-as-rain.png" },
+        { alt: "Shooting Star", src: "/app-icons/shooting-star.png" },
+        { alt: "Grid Combat Tetris", src: "/app-icons/synthset.png" },
     ];
         const tools = [
         { alt: "Shared Values", src: "/app-icons/shared-value.png", popoverTitle: "Shared Values", popoverContent:"A unity inspector dependency injection framework" },
